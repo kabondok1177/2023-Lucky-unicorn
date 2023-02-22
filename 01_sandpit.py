@@ -1,10 +1,9 @@
-# Ask users for a number
-get_number= int(input("choose a number? "))
+# get name until an exit code is entered...
 
-# Multiply the number by 5
-times_five = get_number * 5
+who = ""
+while who != "xxx":
+    who = input("Who are you? ")
+    print(who)
 
-# Output the results
-print(get_number * 5)
-answer = f'{get_number} x 5 = {times_five}'
-print(answer)
+print()
+print("We are done!")
